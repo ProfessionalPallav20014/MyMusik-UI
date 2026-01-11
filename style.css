@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Varela&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu sans','sans-serif';
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+}
+.brand img{
+    width: 90px;
+    height: auto;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.bottom{
+    display: flex;
+    position: sticky;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 1;
+}
+.container{
+    height: 75vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Varela', sans-serif;
+    display: flex;
+    width: 70vw;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 12px;
+    background-image: url(sungimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#myProgressBar{
+    width: 30vw;
+    cursor: pointer;
+}
+.icons{
+    color: aliceblue;
+    cursor: pointer;
+}
+svg{
+    height: 40px;
+}
+.songitem{
+    width: 30vw;
+    height: 50px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.616);
+    color:black;
+    margin: 12px 0;
+    justify-content: space-around;
+    align-items: center;
+    gap: 64px;
+    border-radius: 12px;
+}
+.songitem img{
+    width: 71px;
+    margin: 0;
+    border-radius: 12px;
+}
+.timestamp{
+    margin: 2px 0;
+}
+.songlistplay{
+    display: flex;
+    align-items: center;
+}
+.songlistplay svg{
+    height: 20px;
+    cursor: pointer;
+}
+.songinfo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    left: 14vw;
+    color: rgb(255, 255, 255);
+    gap: 10px;
+}
+.songinfo img{
+    width: 50px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;   
+}
