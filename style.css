@@ -49,7 +49,7 @@ nav ul{
     margin: 23px auto;
     border-radius: 12px;
     padding: 12px;
-    background-image: url(sungimg.png);
+    background-image: url(assets/sungimg.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -74,12 +74,12 @@ svg{
     justify-content: space-around;
     align-items: center;
     gap: 64px;
-    border-radius: 12px;
+    border-radius: 30px;
 }
 .songitem img{
     width: 71px;
     margin: 0;
-    border-radius: 12px;
+    border-radius: 49px;
 }
 .timestamp{
     margin: 2px 0;
